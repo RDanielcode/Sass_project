@@ -1,11 +1,16 @@
 .articulos{
-    width: 40%;
-    padding: 50px 0 0 50px;
+    width: 90%;
+    max-width: 350px;
+    padding: 10px 0 0 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .articulo{
     margin-bottom: 75px;
     border-bottom: 3px solid $color-secundario;
+    display: flex;
+    flex-wrap: wrap;
     &__categoria{
         color: $color-secundario;
         font-weight: 500;
@@ -18,7 +23,7 @@
     }  
     &__descripcion{
         margin-bottom: 30px;
-        padding-right: 100px;
+        padding-right: 50px;
         text-align: justify;
     }
 }
